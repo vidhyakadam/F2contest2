@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-body">
+        <h1>Student Data</h1>
+        <div class="search-input">
+            <input type="text" id="searchInput" placeholder="Search" >
+            <button class="sbtn " id="searchBtn">Search</button>
+        </div>
+        <div class="sorting-btn">
+            <button type="button" id="sortAtoZ" class="btn ">Sort A->Z</button>
+            <button type="button" id="sortZtoA"  class="btn ">Sort Z->A</button>
+            <button type="button" id="sortbymarks" class="btn ">Sort By Marks</button>
+            <button type="button"  id="sortbypassing" class="btn ">Sort By Passing</button>
+            <button type="button" id="sortbyclass" class="btn ">Sort By Class</button>
+            <button type="button" id="sortbygender"  class="btn ">Sort By Gender</button>
+        </div>
+
+        <div class="table-boday">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Marks</th>
+                        <th>Class</th>
+                        <th>Passing</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data will be filled dynamically here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!---
+    <div class="conatiner">
+        <div class="student-portal">Student portal</div>
+        <div class="search-input">
+            <input type="text" id="searchInput" placeholder="Search">
+            <button class="sbtn">Search</button>
+        </div>
+        <button type="button" class="btn btn-dark">Sort A->Z</button>
+        <button type="button" class="btn btn-dark">Sort Z->A</button>
+        <button type="button" class="btn btn-dark">Sort By Marks</button>
+        <button type="button" class="btn btn-dark">Sort By Passing</button>
+        <button type="button" class="btn btn-dark">Sort By Class</button>
+        <button type="button" class="btn btn-dark">Sort By Gender</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+-->
+    <script src="script.js"></script>
+</body>
+
+</html>
